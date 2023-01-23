@@ -7,8 +7,8 @@ __metadata:
 
 "@jabberwocky-labs/prettier-config@https://github.com/jabberwocky-labs/prettier-config":
   version: 0.0.1
-  resolution: "@jabberwocky-labs/prettier-config@https://github.com/jabberwocky-labs/prettier-config.git#commit=5aa6762e8a0d7a03b9b09eb17180c96cc4d3177c"
-  checksum: cdd001fd5597ca4e65e56bdce03aeea9c23cbbfc949393c83981e3c85ba2c2057954af42c79406bc63e167b781690a30082e2bc60692b4eee9f0649564c17c43
+  resolution: "@jabberwocky-labs/prettier-config@https://github.com/jabberwocky-labs/prettier-config.git#commit=ace3762ed7c74b13fd1c38ddff6c260085430949"
+  checksum: ad8fc9cada1e9511bedd4d76ffdb4ad714bc40b3c8f8901b1ede55630817e51d51482354e14d5b437b3f88ae5aaf65882be94b6594f19326e5faf98b22c3356a
   languageName: node
   linkType: hard
 
@@ -17,9 +17,60 @@ __metadata:
   resolution: "@jabberwocky-labs/tsconfig-nextjs@workspace:."
   dependencies:
     "@jabberwocky-labs/prettier-config": "https://github.com/jabberwocky-labs/prettier-config"
+    "@types/node": 18.11.18
+    "@types/react": 18.0.27
+    "@types/react-dom": 18.0.10
     prettier: 2.8.3
   languageName: unknown
   linkType: soft
+
+"@types/node@npm:18.11.18":
+  version: 18.11.18
+  resolution: "@types/node@npm:18.11.18"
+  checksum: 03f17f9480f8d775c8a72da5ea7e9383db5f6d85aa5fefde90dd953a1449bd5e4ffde376f139da4f3744b4c83942166d2a7603969a6f8ea826edfb16e6e3b49d
+  languageName: node
+  linkType: hard
+
+"@types/prop-types@npm:*":
+  version: 15.7.5
+  resolution: "@types/prop-types@npm:15.7.5"
+  checksum: 5b43b8b15415e1f298243165f1d44390403bb2bd42e662bca3b5b5633fdd39c938e91b7fce3a9483699db0f7a715d08cef220c121f723a634972fdf596aec980
+  languageName: node
+  linkType: hard
+
+"@types/react-dom@npm:18.0.10":
+  version: 18.0.10
+  resolution: "@types/react-dom@npm:18.0.10"
+  dependencies:
+    "@types/react": "*"
+  checksum: ff8282d5005a0b1cd95fb65bf79d3d8485e4cfe2aaf052129033a178684b940014a3f4536bc20d573f8a01cf4c6f4770c74988cef7c2b5cac3041d9f172647e3
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:*, @types/react@npm:18.0.27":
+  version: 18.0.27
+  resolution: "@types/react@npm:18.0.27"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: 600fdbc39a92ea4a77047db3e12f05f67776a710f5918248c0189a59ac2a38900c9db5a5d2e433a16df528a3ecab1aa114b322cacea573bb1ca2fc0b094c52d1
+  languageName: node
+  linkType: hard
+
+"@types/scheduler@npm:*":
+  version: 0.16.2
+  resolution: "@types/scheduler@npm:0.16.2"
+  checksum: b6b4dcfeae6deba2e06a70941860fb1435730576d3689225a421280b7742318d1548b3d22c1f66ab68e414f346a9542f29240bc955b6332c5b11e561077583bc
+  languageName: node
+  linkType: hard
+
+"csstype@npm:^3.0.2":
+  version: 3.1.1
+  resolution: "csstype@npm:3.1.1"
+  checksum: 1f7b4f5fdd955b7444b18ebdddf3f5c699159f13e9cf8ac9027ae4a60ae226aef9bbb14a6e12ca7dba3358b007cee6354b116e720262867c398de6c955ea451d
+  languageName: node
+  linkType: hard
 
 "prettier@npm:2.8.3":
   version: 2.8.3
