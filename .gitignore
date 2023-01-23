@@ -1,5 +1,7 @@
+# Modules
 /node_modules
 
+# Yarn
 .yarn/*
 !.yarn/patches
 !.yarn/releases
@@ -7,3 +9,10 @@
 !.yarn/sdks
 !.yarn/versions
 .pnp.*
+
+# Misc
+.DS_Store
+
+# Debug
+yarn-debug.log*
+yarn-error.log*
