@@ -7,8 +7,8 @@ __metadata:
 
 "@jabberwocky-labs/prettier-config@https://github.com/jabberwocky-labs/prettier-config":
   version: 0.0.1
-  resolution: "@jabberwocky-labs/prettier-config@https://github.com/jabberwocky-labs/prettier-config.git#commit=78aa87a2a6c448d1dd2997806eef5be274a3ad6d"
-  checksum: 975641328c89816b7398f20c5286130a425069ce3eef5acf730fac5c75ab9c046e7af35782282f98fb8d9e852117c3658358ff01131ed124f3c2e83695144e99
+  resolution: "@jabberwocky-labs/prettier-config@https://github.com/jabberwocky-labs/prettier-config.git#commit=5aa6762e8a0d7a03b9b09eb17180c96cc4d3177c"
+  checksum: cdd001fd5597ca4e65e56bdce03aeea9c23cbbfc949393c83981e3c85ba2c2057954af42c79406bc63e167b781690a30082e2bc60692b4eee9f0649564c17c43
   languageName: node
   linkType: hard
 
@@ -17,11 +17,11 @@ __metadata:
   resolution: "@jabberwocky-labs/tsconfig-nextjs@workspace:."
   dependencies:
     "@jabberwocky-labs/prettier-config": "https://github.com/jabberwocky-labs/prettier-config"
-    prettier: ^2.8.3
+    prettier: 2.8.3
   languageName: unknown
   linkType: soft
 
-"prettier@npm:^2.8.3":
+"prettier@npm:2.8.3":
   version: 2.8.3
   resolution: "prettier@npm:2.8.3"
   bin:
