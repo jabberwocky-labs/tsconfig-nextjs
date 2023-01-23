@@ -34,7 +34,7 @@
         }
     ],
     "bugs": {
-        "url": "https://github.com/jabberwocky-db/tsconfig-nextjs/issues",
+        "url": "https://github.com/jabberwocky-labs/tsconfig-nextjs/issues",
         "email": "zach@jabberwockylabs.com"
     }
 }
